@@ -20,4 +20,3 @@ const styles = {
 };
 
 export default ItemsContainer;
-
