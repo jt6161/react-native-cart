@@ -39,6 +39,12 @@ const data = [
     name: 'Rye Bread',
     price: 20,
     amountTaken: 1
+  }, {
+    id: 6,
+    image: image5,
+    name: 'Rye Bread',
+    price: 20,
+    amountTaken: 1
   }
 ];
 
