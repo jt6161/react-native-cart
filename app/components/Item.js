@@ -39,12 +39,6 @@ const data = [
     name: 'Rye Bread',
     price: 20,
     amountTaken: 1
-  }, {
-    id: 6,
-    image: image5,
-    name: 'Rye Bread',
-    price: 20,
-    amountTaken: 1
   }
 ];
 
@@ -59,12 +53,13 @@ class Item extends Component {
       priceStyle
     } = styles;
 
-    return (<View
-style={(
+    return (
+      <View
+        style={(
         index + 1 === data.length)
         ? lastItemStyle
         : containerStyle}
-    >
+      >
       <Image
         source={item.image} style={imageStyle}
       />
